@@ -50,27 +50,99 @@ li{
 
 }
 
-.button{
+.btn{
     color: black;
-    text-decoration: none;
-    padding: 12px 28px;
-    line-height: 8;
-    border-radius: 100px;
+    padding: 15px 30px;
+    border-radius: 30px;
     background-color: white;
-    margin: 30px;
+    margin-left: 30px;
     transition-duration: 3ms;
+    border: none;
+    margin-top: 40px;
     
 }
 
-.button:hover{
+.btn:hover{
     background-color: black;
     color: white;
 }
 
-.header2{
-    background-color: rgb(214, 22, 54);
-    
+.showcase{
+    padding-left: 30px;
+    background-color: rgb(161,0,46);
+    height: 74vh;
 }
-.h1{
-    font-size: 100px;
+
+.showcase h2{
+    font-size: 80px;
+    color: white;
+    margin-bottom: 150px;
+}
+
+.card1{
+    background-color: #b43358;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    width: 450px;
+}
+
+.card1 h3{
+    font-size: 60px;
+    padding-bottom: 100px;
+    color: white;
+}
+.card1 p{
+    font-size: 30px;
+    color: #e9c2cd;
+}
+
+.card2{
+    background-color: #c76682;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    width: 450px;
+}
+.card2 h3{
+    font-size: 60px;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.card2 p{
+    font-size: 30px;
+    color: #e9c2cd;
+}
+
+.card3{
+    background-color: #d999ab;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    width: 450px;
+}
+
+.card3 h3{
+    font-size: 60px;
+    padding-bottom: 100px;
+    color: white;
+}
+.card3 p{
+    font-size: 30px;
+    color: #e9c2cd;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.artists{
+    background-color: rgb(121,128,148);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+.artists img{
+    display: block;
+    margin-left: auto;
 }
